@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ineAtlas.data",
-    "section": "",
-    "text": "Website under construction\n\n\n\nThis website and its accompanying R package are currently under development. Check back soon for updates!"
-  },
-  {
     "objectID": "index.html#data-source",
     "href": "index.html#data-source",
     "title": "ineAtlas.data",
     "section": "Data source",
-    "text": "Data source\nThe data comes from INE’s Atlas de Distribución de Renta de los Hogares, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across Spanish territories."
+    "text": "Data source\nThe data comes from INE’s Atlas de Distribución de Renta de los Hogares, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country."
   },
   {
     "objectID": "index.html#geographic-levels",
@@ -25,7 +18,7 @@
     "href": "index.html#available-datasets",
     "title": "ineAtlas.data",
     "section": "Available datasets",
-    "text": "Available datasets\nThe repository contains the following datasets:\n\n\n\n\n\n\n\n\nDataset\nDescription\nFile_Pattern\n\n\n\n\nIncome\nIncome indicators including net/gross income per capita and household\nincome_*.csv\n\n\nIncome Sources\nIncome distribution by source (wages, pensions, benefits, etc.)\nincome_sources_*.csv\n\n\nDemographics\nPopulation characteristics including age structure and household composition\ndemographics_*.csv\n\n\nDistribution by Sex\nIncome distribution indicators disaggregated by sex\nincome_heterogeneity_sex_*.csv\n\n\nDistribution by Sex & Age\nIncome distribution indicators by sex and age categories\nincome_heterogeneity_sex_age_*.csv\n\n\nDistribution by Sex, Age & Nationality\nIncome distribution indicators by sex and nationality status\nincome_heterogeneity_sex_age_nationality_*.csv\n\n\nInequality Indicators\nInequality metrics including Gini coefficient and P80/P20 ratio\ngini_p80p20_*.csv"
+    "text": "Available datasets\nThe repository contains the following datasets:\n\n\n\n\n\n\n\n\nDataset\nDescription\nFile_Pattern\n\n\n\n\nIncome\nIncome indicators including net/gross income per capita and household income\nincome_*.csv\n\n\nIncome Sources\nIncome distribution by source (wages, pensions, benefits, etc.)\nincome_sources_*.csv\n\n\nDemographics\nPopulation characteristics including age structure and household composition\ndemographics_*.csv\n\n\nDistribution by Sex\nIncome distribution indicators disaggregated by sex\nincome_heterogeneity_sex_*.csv\n\n\nDistribution by Sex & Age\nIncome distribution indicators by sex and age categories\nincome_heterogeneity_sex_age_*.csv\n\n\nDistribution by Sex, Age & Nationality\nIncome distribution indicators by sex and nationality status\nincome_heterogeneity_sex_age_nationality_*.csv\n\n\nInequality Indicators\nInequality metrics including Gini coefficient and P80/P20 ratio\ngini_p80p20_*.csv"
   },
   {
     "objectID": "index.html#using-with-ineatlas-package",
@@ -40,6 +33,13 @@
     "title": "ineAtlas.data",
     "section": "Updates",
     "text": "Updates\nThe data in this repository is automatically updated when new releases of the Atlas de Distribución de Renta de los Hogares are published by INE. Updates are processed using the pipeline in the main ineAtlas repository."
+  },
+  {
+    "objectID": "index.html#metadata",
+    "href": "index.html#metadata",
+    "title": "ineAtlas.data",
+    "section": "Metadata",
+    "text": "Metadata\nYou can find the metadata and methodology in the Spanish Statistical Office (INE) website here."
   },
   {
     "objectID": "index.html#about-the-author",

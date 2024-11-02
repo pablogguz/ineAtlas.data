@@ -1,4 +1,4 @@
-# ineAtlas.data
+# ineAtlas.data <img src="icon/logo_data.png" align="right" height="139" />
 
 > [!WARNING]  
 > This repository and its accompanying R package are currently under development. Check back soon for updates!
@@ -30,17 +30,17 @@ ineAtlas.data/
 │   ├── demographics_district.csv
 │   └── demographics_tract.csv
 ├── distribution_sex/
-│   ├── income_heterogeneity_sex_municipality.csv
-│   ├── income_heterogeneity_sex_district.csv
-│   └── income_heterogeneity_sex_tract.csv
+│   ├── distribution_sex_municipality.csv
+│   ├── distribution_sex_district.csv
+│   └── distribution_sex_tract.csv
 ├── distribution_sex_age/
-│   ├── income_heterogeneity_sex_age_municipality.csv
-│   ├── income_heterogeneity_sex_age_district.csv
-│   └── income_heterogeneity_sex_age_tract.csv
+│   ├── distribution_sex_age_municipality.csv
+│   ├── distribution_sex_age_district.csv
+│   └── distribution_sex_age_tract.csv
 ├── distribution_sex_nationality/
-│   ├── income_heterogeneity_sex_nationality_municipality.csv
-│   ├── income_heterogeneity_sex_nationality_district.csv
-│   └── income_heterogeneity_sex_nationality_tract.csv
+│   ├── distribution_sex_nationality_municipality.csv
+│   ├── distribution_sex_nationality_district.csv
+│   └── distribution_sex_nationality_tract.csv
 └── gini_p80p20/
     ├── gini_p80p20_municipality.csv
     ├── gini_p80p20_district.csv

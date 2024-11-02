@@ -2,6 +2,8 @@
 title: "ineAtlas.data"
 ---
 
+<img src="icon/logo_data.png" style="float: right; height: 139px; margin-left: 20px;">
+
 ::: {.callout-warning}
 ## Website under construction
 
@@ -10,11 +12,11 @@ This website and its accompanying R package are currently under development. Che
 
 # Data repository for the `ineAtlas` R package
 
-This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office (INE) _Atlas de Distribución de Renta de los Hogares_, providing detailed socioeconomic indicators at multiple geographic levels in Spain.
+This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608), providing detailed socioeconomic indicators at multiple geographic levels in Spain.
 
 ## Data source
 
-The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across Spanish territories.
+The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country.
 
 ## Geographic levels
 
@@ -36,7 +38,7 @@ datasets <- data.frame(
               "Distribution by Sex", "Distribution by Sex & Age",
               "Distribution by Sex, Age & Nationality", "Inequality Indicators"),
   Description = c(
-    "Income indicators including net/gross income per capita and household",
+    "Income indicators including net/gross income per capita and household income",
     "Income distribution by source (wages, pensions, benefits, etc.)",
     "Population characteristics including age structure and household composition",
     "Income distribution indicators disaggregated by sex",
@@ -48,9 +50,9 @@ datasets <- data.frame(
     "income_*.csv",
     "income_sources_*.csv",
     "demographics_*.csv",
-    "income_heterogeneity_sex_*.csv",
-    "income_heterogeneity_sex_age_*.csv",
-    "income_heterogeneity_sex_age_nationality_*.csv",
+    "distribution_sex_*.csv",
+    "distribution_sex_age_*.csv",
+    "distribution_sex_age_nationality_*.csv",
     "gini_p80p20_*.csv"
   )
 )
@@ -74,6 +76,10 @@ See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentatio
 ## Updates
 
 The data in this repository is automatically updated when new releases of the Atlas de Distribución de Renta de los Hogares are published by INE. Updates are processed using the pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
+
+## Metadata 
+
+You can find the metadata and methodology in the Spanish Statistical Office (INE) website [here](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=metodologia&idp=1254735976608).
 
 ## About the author
 

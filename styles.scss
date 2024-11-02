@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+$primary: #2980b9;  // A nice deep blue
+$navbar-bg: $primary;
+$navbar-fg: #fff;
+$link-color: #2980B9;
+
+/*-- scss:rules --*/
+.navbar {
+  border-bottom: 1px solid lighten($primary, 40%);
+}
+
+.sidebar-title {
+  color: $primary;
+}
+
+.callout-warning {
+  border-left-color: #F39C12;
+}
