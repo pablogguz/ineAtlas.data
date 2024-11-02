@@ -16,7 +16,7 @@ This is the data repository accompanying the [`ineAtlas`](https://github.com/pab
 
 ## Data source
 
-The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country.
+The data comes from Spanish Statistical Office's Household Income Distribution Atlas, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country.
 
 ## Geographic levels
 
