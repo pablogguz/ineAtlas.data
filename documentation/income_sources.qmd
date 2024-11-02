@@ -21,10 +21,10 @@ This dataset provides information about the distribution of income by source (wa
 | district_code* | Código de distrito | District identifier code | character |
 | tract_code* | Código de sección censal | Census tract identifier code | character |
 | year | Periodo | Reference year | numeric |
-| wage | Fuente de ingreso: salario | Income from wages (%) | numeric |
-| pension | Fuente de ingreso: pensiones | Income from pensions (%) | numeric |
-| unemp_benefit | Fuente de ingreso: prestaciones por desempleo | Income from unemployment benefits (%) | numeric |
-| other_benefits | Fuente de ingreso: otras prestaciones | Income from other benefits (%) | numeric |
-| other_income | Fuente de ingreso: otros ingresos | Other income sources (%) | numeric |
+| wage | Fuente de ingreso: salario | Income from wages | numeric |
+| pension | Fuente de ingreso: pensiones | Income from pensions | numeric |
+| unemp_benefit | Fuente de ingreso: prestaciones por desempleo | Income from unemployment benefits | numeric |
+| other_benefits | Fuente de ingreso: otras prestaciones | Income from other benefits | numeric |
+| other_income | Fuente de ingreso: otros ingresos | Other income sources | numeric |
 
 \* Only available in respective geographic level files
