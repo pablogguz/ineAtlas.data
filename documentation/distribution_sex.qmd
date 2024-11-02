@@ -14,12 +14,12 @@ This dataset provides income distribution indicators disaggregated by sex, inclu
 
 ## Variables
 
-| Variable | Spanish Original | Description | Type |
+| Variable | Spanish original | Description | Type |
 |----------|-----------------|-------------|------|
-| mun_code | Código de Municipio | Municipality identifier code | character |
-| mun_name | Nombre de Municipio | Municipality name | character |
-| district_code* | Código de Distrito | District identifier code | character |
-| section_code* | Código de Sección | Census tract identifier code | character |
+| mun_code | Código de municipio | Municipality identifier code | character |
+| mun_name | Nombre de municipio | Municipality name | character |
+| district_code* | Código de distrito | District identifier code | character |
+| tract_code* | Código de sección censal | Census tract identifier code | character |
 | year | Periodo | Reference year | numeric |
 | sex | Sexo | Sex category | character |
 | equivinc_below_5000 | Población con ingresos por unidad de consumo por debajo de 5.000 Euros | Population with equivalised income below €5,000 (%) | numeric |
