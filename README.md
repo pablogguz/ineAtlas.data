@@ -2,7 +2,7 @@
 
 `ineAtlas.data` is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office (Instituto Nacional de Estadística, INE) _Atlas de Distribución de Renta de los Hogares_, which provides socioeconomic indicators at the municipal, district, and census tract level for Spain.
 
-While the data can be used independently, it is designed to work seamlessly with the `ineAtlas` package to facilitate fetching and downloading the data.
+While the data can be used independently, it is designed to work seamlessly with the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package to facilitate fetching and downloading the data.
 
 See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentation for complete usage instructions and examples.*
 
@@ -44,7 +44,7 @@ ineAtlas.data/
 
 ## Documentation
 
-Full documentation and codebook is available at [https://pablogguz.github.io/ineAtlas.data](https://pablogguz.github.io/ineAtlas.data)
+Full documentation and codebook is available at [https://pablogguz.github.io/ineAtlas.data](https://pablogguz.github.io/ineAtlas.data).
 
 ## Updates
 
