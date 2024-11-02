@@ -46,7 +46,7 @@ datasets <- data.frame(
     "Income distribution indicators by sex and nationality status",
     "Inequality metrics including Gini coefficient and P80/P20 ratio"
   ),
-  `File pattern` = c(
+  Files = c(
     "income_*.csv",
     "income_sources_*.csv",
     "demographics_*.csv",
