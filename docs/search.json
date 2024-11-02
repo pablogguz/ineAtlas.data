@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html#data-repository-for-the-ineatlas-r-package",
+    "href": "index.html#data-repository-for-the-ineatlas-r-package",
+    "title": "ineAtlas.data",
+    "section": "Data repository for the ineAtlas R package",
+    "text": "Data repository for the ineAtlas R package\nThis is the data repository accompanying the ineAtlas R package. It contains processed and standardized data from the Spanish Statistical Office (INE) Atlas de Distribución de Renta de los Hogares, providing detailed socioeconomic indicators at multiple geographic levels in Spain."
+  },
+  {
     "objectID": "index.html#data-source",
     "href": "index.html#data-source",
     "title": "ineAtlas.data",

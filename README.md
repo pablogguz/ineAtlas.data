@@ -50,6 +50,11 @@ Full documentation and codebook is available at [https://pablogguz.github.io/ine
 
 This repository is automatically updated when new data is released by INE using the data processing pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
 
+## Changelog 
+
+### [0.1.0] - 2024-02-11
+- Initial release of ineAtlas.data
+
 ## Author
 
 Pablo García Guzmán  
