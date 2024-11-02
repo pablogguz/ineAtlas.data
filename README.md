@@ -11,7 +11,7 @@ While the data can be used independently, it is designed to work seamlessly with
 
 See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentation for complete usage instructions and examples.*
 
-## Data Structure
+## Data structure
 
 The repository is organized into the following directories:
 
@@ -51,7 +51,7 @@ ineAtlas.data/
 
 Full documentation and codebook is available at [https://pablogguz.github.io/ineAtlas.data](https://pablogguz.github.io/ineAtlas.data)
 
-## Data Updates
+## Updates
 
 This repository is automatically updated when new data is released by INE using the data processing pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
 
