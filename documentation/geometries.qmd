@@ -21,4 +21,4 @@ title: "Census tract geometries"
 | tract_code | CUSEC | Census tract identifier code | character |
 | municipality | NMUN | Municipality name | character |
 | province | NPRO | Province name | character |
-| geometry | - | Census tract boundary geometry | sfc_MULTIPOLYGON |
+| geom | - | Census tract boundary geometry | sfc_MULTIPOLYGON |
