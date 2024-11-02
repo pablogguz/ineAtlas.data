@@ -12,7 +12,7 @@ This website and its accompanying R package are currently under development. Che
 
 # Data repository for the `ineAtlas` R package
 
-This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608), providing detailed socioeconomic indicators at multiple geographic levels in Spain.
+This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=ultiDatosandidp=1254735976608), providing detailed socioeconomic indicators at multiple geographic levels in Spain.
 
 ## Data source
 
@@ -22,9 +22,9 @@ The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, whic
 
 Data is available at three geographic levels:
 
-- Municipality (Municipio)
-- District (Distrito)
-- Census tract (Sección censal)
+- Municipality (_Municipio_)
+- District (_Distrito_)
+- Census tract (_Sección censal_)
 
 ## Available datasets
 
@@ -35,8 +35,8 @@ The repository contains the following datasets:
 #| output: asis
 datasets <- data.frame(
   Dataset = c("Income", "Income sources", "Demographics", 
-              "Distribution by sex", "Distribution by sex & age",
-              "Distribution by sex, age & Nationality", "Inequality indicators"),
+              "Distribution by sex", "Distribution by sex and age",
+              "Distribution by sex, age and nationality", "Inequality indicators"),
   Description = c(
     "Income indicators including net/gross income per capita and household income",
     "Income distribution by source (wages, pensions, benefits, etc.)",
@@ -46,7 +46,7 @@ datasets <- data.frame(
     "Income distribution indicators by sex and nationality status",
     "Inequality metrics including Gini coefficient and P80/P20 ratio"
   ),
-  File_Pattern = c(
+  `File pattern` = c(
     "income_*.csv",
     "income_sources_*.csv",
     "demographics_*.csv",
@@ -79,8 +79,8 @@ The data in this repository is automatically updated when new releases of the At
 
 ## Metadata 
 
-You can find the metadata and full methodology in the [Spanish Statistical Office (INE) website](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=metodologia&idp=1254735976608).
+You can find the metadata and full methodology in the [Spanish Statistical Office (INE) website](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=metodologiaandidp=1254735976608).
 
 ## About the author
 
-Hi! I'm [Pablo](https://pablogguz.github.io/). I do applied microeconomic and policy research at a [multilateral development bank](https://www.ebrd.com/sites/Satellite?c=Content&cid=1395317980748&d=&pagename=EBRD%2FContent%2FContentLayout). In my free time, I enjoy working on data projects and contributing to open-source software.
+Hi! I'm [Pablo](https://pablogguz.github.io/). I do applied microeconomic and policy research at a [multilateral development bank](https://www.ebrd.com/sites/Satellite?c=Contentandcid=1395317980748andd=andpagename=EBRD%2FContent%2FContentLayout). In my free time, I enjoy working on data projects and contributing to open-source software.
