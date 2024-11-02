@@ -18,7 +18,7 @@ website:
         menu:
           - text: "Income"
             file: documentation/income.qmd
-          - text: "Income Sources"
+          - text: "Income sources"
             file: documentation/income_sources.qmd
           - text: "Demographics"
             file: documentation/demographics.qmd

@@ -4,7 +4,7 @@
     "href": "index.html#data-repository-for-the-ineatlas-r-package",
     "title": "ineAtlas.data",
     "section": "Data repository for the ineAtlas R package",
-    "text": "Data repository for the ineAtlas R package\nThis is the data repository accompanying the ineAtlas R package. It contains processed and standardized data from the Spanish Statistical Office (INE) Atlas de Distribución de Renta de los Hogares (Household Income Distribution Atlas), providing detailed socioeconomic indicators at multiple geographic levels in Spain."
+    "text": "Data repository for the ineAtlas R package\nThis is the data repository accompanying the ineAtlas R package. It contains processed and standardized data from the Spanish Statistical Office (INE) Atlas de Distribución de Renta de los Hogares (Household Income Distribution Atlas), providing detailed socioeconomic indicators at multiple geographic levels in Spain. The repository also includes boundary files for census tracts."
   },
   {
     "objectID": "index.html#data-source",
@@ -102,7 +102,7 @@
     "href": "documentation/geometries.html#variables",
     "title": "Census tract geometries",
     "section": "Variables",
-    "text": "Variables\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\ntract_code\nCUSEC\nCensus tract identifier code\ncharacter\n\n\nmunicipality\nNMUN\nMunicipality name\ncharacter\n\n\nprovince\nNPRO\nProvince name\ncharacter\n\n\ngeometry\n-\nCensus tract boundary geometry\nsfc_MULTIPOLYGON"
+    "text": "Variables\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\ntract_code\nCUSEC\nCensus tract identifier code\ncharacter\n\n\nmunicipality\nNMUN\nMunicipality name\ncharacter\n\n\nprovince\nNPRO\nProvince name\ncharacter\n\n\ngeom\n-\nCensus tract boundary geometry\nsfc_MULTIPOLYGON"
   },
   {
     "objectID": "documentation/distribution_sex_age.html",
