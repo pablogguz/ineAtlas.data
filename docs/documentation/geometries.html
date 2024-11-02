@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ineAtlas.data - Demographics</title>
+<title>ineAtlas.data - Census tract geometries</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Demographics</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Census tract geometries</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,8 +175,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files">Files</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link active" data-scroll-target="#files">Files</a></li>
   <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
   </ul>
 </nav>
@@ -186,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Demographics</h1>
+<h1 class="title">Census tract geometries</h1>
 </div>
 
 
@@ -203,27 +202,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This dataset contains demographic indicators including age structure, household composition, and population characteristics.</p>
-</section>
 <section id="files" class="level2">
 <h2 class="anchored" data-anchor-id="files">Files</h2>
 <ul>
-<li><code>demographics_municipality.csv</code>: Municipality-level data</li>
-<li><code>demographics_district.csv</code>: District-level data</li>
-<li><code>demographics_tract.csv</code>: Census tract-level data</li>
+<li><code>census_tracts_2015.gpkg.zip</code>: Census tract boundaries for 2015</li>
+<li><code>census_tracts_2016.gpkg.zip</code>: Census tract boundaries for 2016</li>
+<li><code>census_tracts_2017.gpkg.zip</code>: Census tract boundaries for 2017</li>
+<li><code>census_tracts_2018.gpkg.zip</code>: Census tract boundaries for 2018</li>
+<li><code>census_tracts_2019.gpkg.zip</code>: Census tract boundaries for 2019</li>
+<li><code>census_tracts_2020.gpkg.zip</code>: Census tract boundaries for 2020</li>
+<li><code>census_tracts_2021.gpkg.zip</code>: Census tract boundaries for 2021</li>
+<li><code>census_tracts_2022.gpkg.zip</code>: Census tract boundaries for 2022</li>
 </ul>
 </section>
 <section id="variables" class="level2">
 <h2 class="anchored" data-anchor-id="variables">Variables</h2>
 <table class="table">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 36%">
-<col style="width: 28%">
-<col style="width: 13%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -234,80 +228,37 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>mun_code</td>
-<td>Código de municipio</td>
-<td>Municipality identifier code</td>
-<td>character</td>
-</tr>
-<tr class="even">
-<td>mun_name</td>
-<td>Nombre de municipio</td>
-<td>Municipality name</td>
-<td>character</td>
-</tr>
-<tr class="odd">
-<td>district_code*</td>
-<td>Código de distrito</td>
-<td>District identifier code</td>
-<td>character</td>
-</tr>
-<tr class="even">
-<td>tract_code*</td>
-<td>Código de sección censal</td>
-<td>Census tract identifier code</td>
-<td>character</td>
-</tr>
-<tr class="odd">
 <td>year</td>
 <td>Periodo</td>
 <td>Reference year</td>
 <td>numeric</td>
 </tr>
 <tr class="even">
-<td>mean_age</td>
-<td>Edad media de la población</td>
-<td>Mean age of population</td>
-<td>numeric</td>
+<td>tract_code</td>
+<td>CUSEC</td>
+<td>Census tract identifier code</td>
+<td>character</td>
 </tr>
 <tr class="odd">
-<td>pct_under18</td>
-<td>Porcentaje de población menor de 18 años</td>
-<td>Percentage under 18 years</td>
-<td>numeric</td>
+<td>municipality</td>
+<td>NMUN</td>
+<td>Municipality name</td>
+<td>character</td>
 </tr>
 <tr class="even">
-<td>pct_over65</td>
-<td>Porcentaje de población de 65 y más años</td>
-<td>Percentage 65 and over</td>
-<td>numeric</td>
+<td>province</td>
+<td>NPRO</td>
+<td>Province name</td>
+<td>character</td>
 </tr>
 <tr class="odd">
-<td>mean_hh_size</td>
-<td>Tamaño medio del hogar</td>
-<td>Mean household size</td>
-<td>numeric</td>
-</tr>
-<tr class="even">
-<td>pct_single_hh</td>
-<td>Porcentaje de hogares unipersonales</td>
-<td>Percentage single-person households</td>
-<td>numeric</td>
-</tr>
-<tr class="odd">
-<td>population</td>
-<td>Población</td>
-<td>Total population</td>
-<td>numeric</td>
-</tr>
-<tr class="even">
-<td>pct_spanish</td>
-<td>Porcentaje de población española</td>
-<td>Percentage Spanish nationality</td>
-<td>numeric</td>
+<td>geometry</td>
+<td>-</td>
+<td>Census tract boundary geometry</td>
+<td>sfc_MULTIPOLYGON</td>
 </tr>
 </tbody>
 </table>
-<p>* Only available in respective geographic level files</p>
 
 
 </section>

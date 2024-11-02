@@ -25,7 +25,7 @@
     "href": "index.html#available-datasets",
     "title": "ineAtlas.data",
     "section": "Available datasets",
-    "text": "Available datasets\nThe repository contains the following datasets:\n\n\n\n\n\n\n\n\nDataset\nDescription\nFiles\n\n\n\n\nIncome\nIncome indicators including net/gross income per capita and household income\nincome_*.csv\n\n\nIncome sources\nIncome distribution by source (wages, pensions, benefits, etc.)\nincome_sources_*.csv\n\n\nDemographics\nPopulation characteristics including age structure and household composition\ndemographics_*.csv\n\n\nDistribution by sex\nIncome distribution indicators disaggregated by sex\ndistribution_sex_*.csv\n\n\nDistribution by sex and age\nIncome distribution indicators by sex and age groups\ndistribution_sex_age_*.csv\n\n\nDistribution by sex and nationality\nIncome distribution indicators by sex and nationality status\ndistribution_sex_nationality_*.csv\n\n\nInequality indicators\nInequality metrics including Gini coefficient and P80/P20 ratio\ngini_p80p20_*.csv"
+    "text": "Available datasets\nThe repository contains the following datasets:\n\n\n\n\n\n\n\n\nDataset\nDescription\nFiles\n\n\n\n\nIncome\nIncome indicators including net/gross income per capita and household income\nincome_*.csv\n\n\nIncome sources\nIncome distribution by source (wages, pensions, benefits, etc.)\nincome_sources_*.csv\n\n\nDemographics\nPopulation characteristics including age structure and household composition\ndemographics_*.csv\n\n\nDistribution by sex\nIncome distribution indicators disaggregated by sex\ndistribution_sex_*.csv\n\n\nDistribution by sex and age\nIncome distribution indicators by sex and age groups\ndistribution_sex_age_*.csv\n\n\nDistribution by sex and nationality\nIncome distribution indicators by sex and nationality status\ndistribution_sex_nationality_*.csv\n\n\nInequality indicators\nInequality metrics including Gini coefficient and P80/P20 ratio\ngini_p80p20_*.csv\n\n\nCensus tract geometries\nCensus tract boundary files (2015-2022)\ncensus_tracts_*.gpkg.zip"
   },
   {
     "objectID": "index.html#usage-with-ineatlas-package",
@@ -84,60 +84,53 @@
     "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nnet_income_pc\nRenta neta media por persona\nAverage net income per capita (€)\nnumeric\n\n\nnet_income_hh\nRenta neta media por hogar\nAverage net household income (€)\nnumeric\n\n\nnet_income_equiv\nMedia de la renta por unidad de consumo\nMean equivalised income (€)\nnumeric\n\n\nmedian_income_equiv\nMediana de la renta por unidad de consumo\nMedian equivalised income (€)\nnumeric\n\n\ngross_income_pc\nRenta bruta media por persona\nAverage gross income per capita (€)\nnumeric\n\n\ngross_income_hh\nRenta bruta media por hogar\nAverage gross household income (€)\nnumeric\n\n\n\n* Only available in respective geographic level files"
   },
   {
-    "objectID": "documentation/distribution_sex_nationality.html",
-    "href": "documentation/distribution_sex_nationality.html",
-    "title": "Income distribution by sex and nationality",
+    "objectID": "documentation/geometries.html",
+    "href": "documentation/geometries.html",
+    "title": "Census tract geometries",
     "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex and nationality status."
+    "text": "census_tracts_2015.gpkg.zip: Census tract boundaries for 2015\ncensus_tracts_2016.gpkg.zip: Census tract boundaries for 2016\ncensus_tracts_2017.gpkg.zip: Census tract boundaries for 2017\ncensus_tracts_2018.gpkg.zip: Census tract boundaries for 2018\ncensus_tracts_2019.gpkg.zip: Census tract boundaries for 2019\ncensus_tracts_2020.gpkg.zip: Census tract boundaries for 2020\ncensus_tracts_2021.gpkg.zip: Census tract boundaries for 2021\ncensus_tracts_2022.gpkg.zip: Census tract boundaries for 2022"
   },
   {
-    "objectID": "documentation/distribution_sex_nationality.html#overview",
-    "href": "documentation/distribution_sex_nationality.html#overview",
-    "title": "Income distribution by sex and nationality",
+    "objectID": "documentation/geometries.html#files",
+    "href": "documentation/geometries.html#files",
+    "title": "Census tract geometries",
     "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex and nationality status."
+    "text": "census_tracts_2015.gpkg.zip: Census tract boundaries for 2015\ncensus_tracts_2016.gpkg.zip: Census tract boundaries for 2016\ncensus_tracts_2017.gpkg.zip: Census tract boundaries for 2017\ncensus_tracts_2018.gpkg.zip: Census tract boundaries for 2018\ncensus_tracts_2019.gpkg.zip: Census tract boundaries for 2019\ncensus_tracts_2020.gpkg.zip: Census tract boundaries for 2020\ncensus_tracts_2021.gpkg.zip: Census tract boundaries for 2021\ncensus_tracts_2022.gpkg.zip: Census tract boundaries for 2022"
   },
   {
-    "objectID": "documentation/distribution_sex_nationality.html#files",
-    "href": "documentation/distribution_sex_nationality.html#files",
-    "title": "Income distribution by sex and nationality",
+    "objectID": "documentation/geometries.html#variables",
+    "href": "documentation/geometries.html#variables",
+    "title": "Census tract geometries",
+    "section": "Variables",
+    "text": "Variables\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\ntract_code\nCUSEC\nCensus tract identifier code\ncharacter\n\n\nmunicipality\nNMUN\nMunicipality name\ncharacter\n\n\nprovince\nNPRO\nProvince name\ncharacter\n\n\ngeometry\n-\nCensus tract boundary geometry\nsfc_MULTIPOLYGON"
+  },
+  {
+    "objectID": "documentation/distribution_sex_age.html",
+    "href": "documentation/distribution_sex_age.html",
+    "title": "Income distribution by sex and age",
+    "section": "",
+    "text": "This dataset provides income distribution indicators disaggregated by sex and age groups."
+  },
+  {
+    "objectID": "documentation/distribution_sex_age.html#overview",
+    "href": "documentation/distribution_sex_age.html#overview",
+    "title": "Income distribution by sex and age",
+    "section": "",
+    "text": "This dataset provides income distribution indicators disaggregated by sex and age groups."
+  },
+  {
+    "objectID": "documentation/distribution_sex_age.html#files",
+    "href": "documentation/distribution_sex_age.html#files",
+    "title": "Income distribution by sex and age",
     "section": "Files",
     "text": "Files\n\ndistribution_sex_nationality_municipality.csv: Municipality-level data\ndistribution_sex_nationality_district.csv: District-level data\ndistribution_sex_nationality_tract.csv: Census tract-level data"
   },
   {
-    "objectID": "documentation/distribution_sex_nationality.html#variables",
-    "href": "documentation/distribution_sex_nationality.html#variables",
-    "title": "Income distribution by sex and nationality",
+    "objectID": "documentation/distribution_sex_age.html#variables",
+    "href": "documentation/distribution_sex_age.html#variables",
+    "title": "Income distribution by sex and age",
     "section": "Variables",
-    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nnationality\nNacionalidad\nNationality status\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPercent of individuals with an equivalised income below €5,000\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPercent of individuals with an equivalised income below €7,500\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPercent of individuals with an equivalised income below €10,000\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPercent of individuals with an equivalised income below 40% of median\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPercent of individuals with an equivalised income below 50% of median\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPercent of individuals with an equivalised income below 60% of median\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPercent of individuals with an equivalised income above 140% of median\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPercent of individuals with an equivalised income above 160% of median\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPercent of individuals with an equivalised income above 200% of median\nnumeric\n\n\n\n* Only available in respective geographic level files"
-  },
-  {
-    "objectID": "documentation/distribution_sex.html",
-    "href": "documentation/distribution_sex.html",
-    "title": "Income distribution by sex",
-    "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex."
-  },
-  {
-    "objectID": "documentation/distribution_sex.html#overview",
-    "href": "documentation/distribution_sex.html#overview",
-    "title": "Income distribution by sex",
-    "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex."
-  },
-  {
-    "objectID": "documentation/distribution_sex.html#files",
-    "href": "documentation/distribution_sex.html#files",
-    "title": "Income distribution by sex",
-    "section": "Files",
-    "text": "Files\n\ndistribution_sex_municipality.csv: Municipality-level data\ndistribution_sex_district.csv: District-level data\ndistribution_sex_tract.csv: Census tract-level data"
-  },
-  {
-    "objectID": "documentation/distribution_sex.html#variables",
-    "href": "documentation/distribution_sex.html#variables",
-    "title": "Income distribution by sex",
-    "section": "Variables",
-    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPopulation with equivalised income below €5,000 (%)\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPopulation with equivalised income below €7,500 (%)\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPopulation with equivalised income below €10,000 (%)\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPopulation below 40% of median income (%)\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPopulation below 50% of median income (%)\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPopulation below 60% of median income (%)\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPopulation above 140% of median income (%)\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPopulation above 160% of median income (%)\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPopulation above 200% of median income (%)\nnumeric\n\n\n\n* Only available in respective geographic level files"
+    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nage_group\nTramos de edad\nAge groups\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPercent of individuals with an equivalised income below €5,000\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPercent of individuals with an equivalised income below €7,500\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPercent of individuals with an equivalised income below €10,000\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPercent of individuals with an equivalised income below 40% of median\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPercent of individuals with an equivalised income below 50% of median\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPercent of individuals with an equivalised income below 60% of median\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPercent of individuals with an equivalised income above 140% of median\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPercent of individuals with an equivalised income above 160% of median\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPercent of individuals with an equivalised income above 200% of median\nnumeric\n\n\n\n* Only available in respective geographic level files"
   },
   {
     "objectID": "documentation/demographics.html",
@@ -168,32 +161,60 @@
     "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nmean_age\nEdad media de la población\nMean age of population\nnumeric\n\n\npct_under18\nPorcentaje de población menor de 18 años\nPercentage under 18 years\nnumeric\n\n\npct_over65\nPorcentaje de población de 65 y más años\nPercentage 65 and over\nnumeric\n\n\nmean_hh_size\nTamaño medio del hogar\nMean household size\nnumeric\n\n\npct_single_hh\nPorcentaje de hogares unipersonales\nPercentage single-person households\nnumeric\n\n\npopulation\nPoblación\nTotal population\nnumeric\n\n\npct_spanish\nPorcentaje de población española\nPercentage Spanish nationality\nnumeric\n\n\n\n* Only available in respective geographic level files"
   },
   {
-    "objectID": "documentation/distribution_sex_age.html",
-    "href": "documentation/distribution_sex_age.html",
-    "title": "Income distribution by sex and age",
+    "objectID": "documentation/distribution_sex.html",
+    "href": "documentation/distribution_sex.html",
+    "title": "Income distribution by sex",
     "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex and age groups."
+    "text": "This dataset provides income distribution indicators disaggregated by sex."
   },
   {
-    "objectID": "documentation/distribution_sex_age.html#overview",
-    "href": "documentation/distribution_sex_age.html#overview",
-    "title": "Income distribution by sex and age",
+    "objectID": "documentation/distribution_sex.html#overview",
+    "href": "documentation/distribution_sex.html#overview",
+    "title": "Income distribution by sex",
     "section": "",
-    "text": "This dataset provides income distribution indicators disaggregated by sex and age groups."
+    "text": "This dataset provides income distribution indicators disaggregated by sex."
   },
   {
-    "objectID": "documentation/distribution_sex_age.html#files",
-    "href": "documentation/distribution_sex_age.html#files",
-    "title": "Income distribution by sex and age",
+    "objectID": "documentation/distribution_sex.html#files",
+    "href": "documentation/distribution_sex.html#files",
+    "title": "Income distribution by sex",
+    "section": "Files",
+    "text": "Files\n\ndistribution_sex_municipality.csv: Municipality-level data\ndistribution_sex_district.csv: District-level data\ndistribution_sex_tract.csv: Census tract-level data"
+  },
+  {
+    "objectID": "documentation/distribution_sex.html#variables",
+    "href": "documentation/distribution_sex.html#variables",
+    "title": "Income distribution by sex",
+    "section": "Variables",
+    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPopulation with equivalised income below €5,000 (%)\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPopulation with equivalised income below €7,500 (%)\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPopulation with equivalised income below €10,000 (%)\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPopulation below 40% of median income (%)\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPopulation below 50% of median income (%)\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPopulation below 60% of median income (%)\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPopulation above 140% of median income (%)\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPopulation above 160% of median income (%)\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPopulation above 200% of median income (%)\nnumeric\n\n\n\n* Only available in respective geographic level files"
+  },
+  {
+    "objectID": "documentation/distribution_sex_nationality.html",
+    "href": "documentation/distribution_sex_nationality.html",
+    "title": "Income distribution by sex and nationality",
+    "section": "",
+    "text": "This dataset provides income distribution indicators disaggregated by sex and nationality status."
+  },
+  {
+    "objectID": "documentation/distribution_sex_nationality.html#overview",
+    "href": "documentation/distribution_sex_nationality.html#overview",
+    "title": "Income distribution by sex and nationality",
+    "section": "",
+    "text": "This dataset provides income distribution indicators disaggregated by sex and nationality status."
+  },
+  {
+    "objectID": "documentation/distribution_sex_nationality.html#files",
+    "href": "documentation/distribution_sex_nationality.html#files",
+    "title": "Income distribution by sex and nationality",
     "section": "Files",
     "text": "Files\n\ndistribution_sex_nationality_municipality.csv: Municipality-level data\ndistribution_sex_nationality_district.csv: District-level data\ndistribution_sex_nationality_tract.csv: Census tract-level data"
   },
   {
-    "objectID": "documentation/distribution_sex_age.html#variables",
-    "href": "documentation/distribution_sex_age.html#variables",
-    "title": "Income distribution by sex and age",
+    "objectID": "documentation/distribution_sex_nationality.html#variables",
+    "href": "documentation/distribution_sex_nationality.html#variables",
+    "title": "Income distribution by sex and nationality",
     "section": "Variables",
-    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nage_group\nTramos de edad\nAge groups\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPercent of individuals with an equivalised income below €5,000\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPercent of individuals with an equivalised income below €7,500\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPercent of individuals with an equivalised income below €10,000\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPercent of individuals with an equivalised income below 40% of median\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPercent of individuals with an equivalised income below 50% of median\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPercent of individuals with an equivalised income below 60% of median\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPercent of individuals with an equivalised income above 140% of median\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPercent of individuals with an equivalised income above 160% of median\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPercent of individuals with an equivalised income above 200% of median\nnumeric\n\n\n\n* Only available in respective geographic level files"
+    "text": "Variables\n\n\n\n\n\n\n\n\n\nVariable\nSpanish original\nDescription\nType\n\n\n\n\nmun_code\nCódigo de municipio\nMunicipality identifier code\ncharacter\n\n\nmun_name\nNombre de municipio\nMunicipality name\ncharacter\n\n\ndistrict_code*\nCódigo de distrito\nDistrict identifier code\ncharacter\n\n\ntract_code*\nCódigo de sección censal\nCensus tract identifier code\ncharacter\n\n\nyear\nPeriodo\nReference year\nnumeric\n\n\nsex\nSexo\nSex category\ncharacter\n\n\nnationality\nNacionalidad\nNationality status\ncharacter\n\n\nequivinc_below_5000\nPoblación con ingresos por unidad de consumo por debajo de 5.000 Euros\nPercent of individuals with an equivalised income below €5,000\nnumeric\n\n\nequivinc_below_7500\nPoblación con ingresos por unidad de consumo por debajo de 7.500 Euros\nPercent of individuals with an equivalised income below €7,500\nnumeric\n\n\nequivinc_below_10000\nPoblación con ingresos por unidad de consumo por debajo de 10.000 Euros\nPercent of individuals with an equivalised income below €10,000\nnumeric\n\n\nequivinc_below_40p_median\nPoblación con ingresos por unidad de consumo por debajo 40% de la mediana\nPercent of individuals with an equivalised income below 40% of median\nnumeric\n\n\nequivinc_below_50p_median\nPoblación con ingresos por unidad de consumo por debajo 50% de la mediana\nPercent of individuals with an equivalised income below 50% of median\nnumeric\n\n\nequivinc_below_60p_median\nPoblación con ingresos por unidad de consumo por debajo 60% de la mediana\nPercent of individuals with an equivalised income below 60% of median\nnumeric\n\n\nequivinc_above_140p_median\nPoblación con ingresos por unidad de consumo por encima 140% de la mediana\nPercent of individuals with an equivalised income above 140% of median\nnumeric\n\n\nequivinc_above_160p_median\nPoblación con ingresos por unidad de consumo por encima 160% de la mediana\nPercent of individuals with an equivalised income above 160% of median\nnumeric\n\n\nequivinc_above_200p_median\nPoblación con ingresos por unidad de consumo por encima 200% de la mediana\nPercent of individuals with an equivalised income above 200% of median\nnumeric\n\n\n\n* Only available in respective geographic level files"
   },
   {
     "objectID": "documentation/gini_p80p20.html",

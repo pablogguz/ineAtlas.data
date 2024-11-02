@@ -36,7 +36,8 @@ The repository contains the following datasets:
 datasets <- data.frame(
   Dataset = c("Income", "Income sources", "Demographics", 
               "Distribution by sex", "Distribution by sex and age",
-              "Distribution by sex and nationality", "Inequality indicators"),
+              "Distribution by sex and nationality", "Inequality indicators",
+              "Census tract geometries"),
   Description = c(
     "Income indicators including net/gross income per capita and household income",
     "Income distribution by source (wages, pensions, benefits, etc.)",
@@ -44,7 +45,8 @@ datasets <- data.frame(
     "Income distribution indicators disaggregated by sex",
     "Income distribution indicators by sex and age groups",
     "Income distribution indicators by sex and nationality status",
-    "Inequality metrics including Gini coefficient and P80/P20 ratio"
+    "Inequality metrics including Gini coefficient and P80/P20 ratio",
+    "Census tract boundary files (2015-2022)"
   ),
   Files = c(
     "income_*.csv",
@@ -53,7 +55,8 @@ datasets <- data.frame(
     "distribution_sex_*.csv",
     "distribution_sex_age_*.csv",
     "distribution_sex_nationality_*.csv",
-    "gini_p80p20_*.csv"
+    "gini_p80p20_*.csv",
+    "census_tracts_*.gpkg.zip"
   )
 )
 

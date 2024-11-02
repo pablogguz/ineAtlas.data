@@ -1,0 +1,24 @@
+---
+title: "Census tract geometries"
+---
+
+## Files
+
+- `census_tracts_2015.gpkg.zip`: Census tract boundaries for 2015
+- `census_tracts_2016.gpkg.zip`: Census tract boundaries for 2016
+- `census_tracts_2017.gpkg.zip`: Census tract boundaries for 2017
+- `census_tracts_2018.gpkg.zip`: Census tract boundaries for 2018
+- `census_tracts_2019.gpkg.zip`: Census tract boundaries for 2019
+- `census_tracts_2020.gpkg.zip`: Census tract boundaries for 2020
+- `census_tracts_2021.gpkg.zip`: Census tract boundaries for 2021
+- `census_tracts_2022.gpkg.zip`: Census tract boundaries for 2022
+
+## Variables
+
+| Variable | Spanish original | Description | Type |
+|----------|-----------------|-------------|------|
+| year | Periodo | Reference year | numeric |
+| tract_code | CUSEC | Census tract identifier code | character |
+| municipality | NMUN | Municipality name | character |
+| province | NPRO | Province name | character |
+| geometry | - | Census tract boundary geometry | sfc_MULTIPOLYGON |
