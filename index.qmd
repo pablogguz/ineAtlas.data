@@ -12,7 +12,7 @@ This website and its accompanying R package are currently under development. Che
 
 ## Data repository for the `ineAtlas` R package
 
-This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=ultiDatosandidp=1254735976608), providing detailed socioeconomic indicators at multiple geographic levels in Spain.
+This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=ultiDatosandidp=1254735976608) (Household Income Distribution Atlas), providing detailed socioeconomic indicators at multiple geographic levels in Spain.
 
 ## Data source
 
@@ -22,9 +22,9 @@ The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, whic
 
 Data is available at three geographic levels:
 
-- Municipality (_Municipio_)
-- District (_Distrito_)
-- Census tract (_Sección censal_)
+- Municipality _(Municipio)_
+- District _(Distrito)_
+- Census tract _(Sección censal)_
 
 ## Available datasets
 
@@ -60,9 +60,9 @@ datasets <- data.frame(
 knitr::kable(datasets)
 ```
 
-## Using with ineAtlas package
+## Usage with `ineAtlas` package
 
-While this data can be used independently, it's designed to work seamlessly with the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package, which provides functions for easily accessing and analyzing the data:
+While this data can be used independently, it's designed to work seamlessly with the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package, which provides functions for easily accessing the data:
 
 ```r
 # install.packages("pak")

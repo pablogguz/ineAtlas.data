@@ -51,9 +51,9 @@ sticker_data <- sticker(
   h_fill = "#3498db",  # Hexagon fill (blue)
   h_color = "#2980b9", # Hexagon border
   p_color = "white",   # Package name color
-  p_y = 0.45,            # Package name y position
+  p_y = 0.5,            # Package name y position
   url = "pablogguz.github.io/ineAtlas.data",
-  u_size = 4.5,
+  u_size = 4,
   u_color = "white",
   filename = "icon/logo_data.png"
 )
