@@ -95,7 +95,7 @@
     "href": "documentation/distribution_sex_age_nationality.html#files",
     "title": "Income Distribution by Sex, Age and Nationality",
     "section": "Files",
-    "text": "Files\n\nincome_heterogeneity_sex_nationality_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_nationality_district.csv: District-level data\nincome_heterogeneity_sex_nationality_section.csv: Census tract-level data"
+    "text": "Files\n\nincome_heterogeneity_sex_nationality_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_nationality_district.csv: District-level data\nincome_heterogeneity_sex_nationality_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/distribution_sex_age_nationality.html#variables",
@@ -137,7 +137,7 @@
     "href": "documentation/distribution_sex.html#files",
     "title": "Income Distribution by Sex",
     "section": "Files",
-    "text": "Files\n\nincome_heterogeneity_sex_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_district.csv: District-level data\nincome_heterogeneity_sex_section.csv: Census tract-level data"
+    "text": "Files\n\nincome_heterogeneity_sex_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_district.csv: District-level data\nincome_heterogeneity_sex_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/distribution_sex.html#variables",
@@ -165,7 +165,7 @@
     "href": "documentation/distribution_sex_age.html#files",
     "title": "Income Distribution by Sex and Nationality",
     "section": "Files",
-    "text": "Files\n\nincome_heterogeneity_sex_nationality_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_nationality_district.csv: District-level data\nincome_heterogeneity_sex_nationality_section.csv: Census tract-level data"
+    "text": "Files\n\nincome_heterogeneity_sex_nationality_municipality.csv: Municipality-level data\nincome_heterogeneity_sex_nationality_district.csv: District-level data\nincome_heterogeneity_sex_nationality_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/distribution_sex_age.html#variables",
@@ -256,7 +256,7 @@
     "href": "documentation/demographics.html#files",
     "title": "Demographics",
     "section": "Files",
-    "text": "Files\n\ndemographics_municipality.csv: Municipality-level data\ndemographics_district.csv: District-level data\ndemographics_section.csv: Census tract-level data"
+    "text": "Files\n\ndemographics_municipality.csv: Municipality-level data\ndemographics_district.csv: District-level data\ndemographics_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/demographics.html#variables",

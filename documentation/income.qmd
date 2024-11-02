@@ -10,7 +10,7 @@ This dataset contains basic income indicators at different geographic levels fro
 
 - `income_municipality.csv`: Municipality-level data
 - `income_district.csv`: District-level data
-- `income_section.csv`: Census tract-level data
+- `income_tract.csv`: Census tract-level data
 
 ## Variables
 

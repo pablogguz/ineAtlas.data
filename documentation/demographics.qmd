@@ -10,7 +10,7 @@ This dataset contains demographic indicators including age structure, household 
 
 - `demographics_municipality.csv`: Municipality-level data
 - `demographics_district.csv`: District-level data
-- `demographics_section.csv`: Census tract-level data
+- `demographics_tract.csv`: Census tract-level data
 
 ## Variables
 

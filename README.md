@@ -20,31 +20,31 @@ ineAtlas.data/
 ├── income/
 │   ├── income_municipality.csv
 │   ├── income_district.csv
-│   └── income_section.csv
+│   └── income_tract.csv
 ├── income_sources/
 │   ├── income_sources_municipality.csv
 │   ├── income_sources_district.csv
-│   └── income_sources_section.csv
+│   └── income_sources_tract.csv
 ├── demographics/
 │   ├── demographics_municipality.csv
 │   ├── demographics_district.csv
-│   └── demographics_section.csv
+│   └── demographics_tract.csv
 ├── distribution_sex/
 │   ├── income_heterogeneity_sex_municipality.csv
 │   ├── income_heterogeneity_sex_district.csv
-│   └── income_heterogeneity_sex_section.csv
+│   └── income_heterogeneity_sex_tract.csv
 ├── distribution_sex_age/
 │   ├── income_heterogeneity_sex_age_municipality.csv
 │   ├── income_heterogeneity_sex_age_district.csv
-│   └── income_heterogeneity_sex_age_section.csv
+│   └── income_heterogeneity_sex_age_tract.csv
 ├── distribution_sex_nationality/
 │   ├── income_heterogeneity_sex_nationality_municipality.csv
 │   ├── income_heterogeneity_sex_nationality_district.csv
-│   └── income_heterogeneity_sex_nationality_section.csv
+│   └── income_heterogeneity_sex_nationality_tract.csv
 └── gini_p80p20/
     ├── gini_p80p20_municipality.csv
     ├── gini_p80p20_district.csv
-    └── gini_p80p20_section.csv
+    └── gini_p80p20_tract.csv
 ```
 
 ## Documentation

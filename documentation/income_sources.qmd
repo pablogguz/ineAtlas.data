@@ -10,7 +10,7 @@ This dataset provides information about the distribution of income by source (wa
 
 - `income_sources_municipality.csv`: Municipality-level data
 - `income_sources_district.csv`: District-level data
-- `income_sources_section.csv`: Census tract-level data
+- `income_sources_tract.csv`: Census tract-level data
 
 ## Variables
 
