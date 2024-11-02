@@ -34,9 +34,9 @@ The repository contains the following datasets:
 #| echo: false
 #| output: asis
 datasets <- data.frame(
-  Dataset = c("Income", "Income Sources", "Demographics", 
-              "Distribution by Sex", "Distribution by Sex & Age",
-              "Distribution by Sex, Age & Nationality", "Inequality Indicators"),
+  Dataset = c("Income", "Income sources", "Demographics", 
+              "Distribution by sex", "Distribution by sex & age",
+              "Distribution by sex, age & Nationality", "Inequality indicators"),
   Description = c(
     "Income indicators including net/gross income per capita and household income",
     "Income distribution by source (wages, pensions, benefits, etc.)",

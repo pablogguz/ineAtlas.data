@@ -1,5 +1,5 @@
 ---
-title: "Inequality Indicators"
+title: "Inequality indicators"
 ---
 
 ## Overview

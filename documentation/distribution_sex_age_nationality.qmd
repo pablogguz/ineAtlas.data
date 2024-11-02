@@ -1,5 +1,5 @@
 ---
-title: "Income Distribution by Sex, Age and Nationality"
+title: "Income distribution by sex, age and nationality"
 ---
 
 ## Overview

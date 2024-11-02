@@ -21,13 +21,13 @@ website:
             file: documentation/income_sources.qmd
           - text: "Demographics"
             file: documentation/demographics.qmd
-          - text: "Distribution by Sex"
+          - text: "Distribution by sex"
             file: documentation/distribution_sex.qmd
-          - text: "Distribution by Sex & Age"
+          - text: "Distribution by sex & age"
             file: documentation/distribution_sex_age.qmd
-          - text: "Distribution by Sex, Age & Nationality"
+          - text: "Distribution by sex, age & Nationality"
             file: documentation/distribution_sex_age_nationality.qmd
-          - text: "Inequality Indicators"
+          - text: "Inequality indicators"
             file: documentation/gini_p80p20.qmd
     right:
       - icon: github

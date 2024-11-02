@@ -1,5 +1,5 @@
 ---
-title: "Income Indicators"
+title: "Income"
 ---
 
 ## Overview
