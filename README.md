@@ -1,7 +1,4 @@
-# ineAtlas.data <img src="icon/logo_data.png" align="right" height="139" />
-
-> [!WARNING]  
-> This repository and its accompanying R package are currently under development. Check back soon for updates!
+# ineAtlas.data <img src="icon/logo_data.png" align="right" height="278" />
 
 ## About
 
