@@ -42,7 +42,7 @@ datasets <- data.frame(
     "Income distribution by source (wages, pensions, benefits, etc.)",
     "Population characteristics including age structure and household composition",
     "Income distribution indicators disaggregated by sex",
-    "Income distribution indicators by sex and age categories",
+    "Income distribution indicators by sex and age groups",
     "Income distribution indicators by sex and nationality status",
     "Inequality metrics including Gini coefficient and P80/P20 ratio"
   ),
@@ -52,7 +52,7 @@ datasets <- data.frame(
     "demographics_*.csv",
     "distribution_sex_*.csv",
     "distribution_sex_age_*.csv",
-    "distribution_sex_age_nationality_*.csv",
+    "distribution_sex_nationality_*.csv",
     "gini_p80p20_*.csv"
   )
 )

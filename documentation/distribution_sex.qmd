@@ -8,9 +8,9 @@ This dataset provides income distribution indicators disaggregated by sex.
 
 ## Files
 
-- `income_heterogeneity_sex_municipality.csv`: Municipality-level data
-- `income_heterogeneity_sex_district.csv`: District-level data
-- `income_heterogeneity_sex_tract.csv`: Census tract-level data
+- `distribution_sex_municipality.csv`: Municipality-level data
+- `distribution_sex_district.csv`: District-level data
+- `distribution_sex_tract.csv`: Census tract-level data
 
 ## Variables
 
