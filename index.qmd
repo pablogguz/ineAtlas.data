@@ -79,7 +79,7 @@ The data in this repository is automatically updated when new releases of the At
 
 ## Metadata 
 
-You can find the metadata and methodology in the Spanish Statistical Office (INE) website [here](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=metodologia&idp=1254735976608).
+You can find the metadata and full methodology in the [Spanish Statistical Office (INE) website](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=metodologia&idp=1254735976608).
 
 ## About the author
 
