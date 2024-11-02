@@ -4,7 +4,7 @@
 
 While the data can be used independently, it is designed to work seamlessly with the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package to facilitate fetching and downloading the data.
 
-See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentation for complete usage instructions and examples.*
+See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentation for complete usage instructions and examples.
 
 ## Data structure
 
