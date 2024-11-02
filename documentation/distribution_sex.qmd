@@ -4,7 +4,7 @@ title: "Income distribution by sex"
 
 ## Overview
 
-This dataset provides income distribution indicators disaggregated by sex, including various income thresholds and percentiles.
+This dataset provides income distribution indicators disaggregated by sex.
 
 ## Files
 
