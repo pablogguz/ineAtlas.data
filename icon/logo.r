@@ -39,25 +39,6 @@ p_pkg <- ggplot() +
     panel.background = element_rect(fill = "transparent", color = NA)
   )
 
-# Create sticker for main package
-sticker_pkg <- sticker(
-  p_pkg,
-  package = "ineAtlas",
-  p_size = 17,           # Package name size
-  s_x = 1,               # Subplot x position
-  s_y = 1.1,            # Subplot y position
-  s_width = 1.7,        # Subplot width
-  s_height = 1.7,       # Subplot height
-  h_fill = "#e74c3c",   # Hexagon fill (red)
-  h_color = "#c0392b",  # Hexagon border
-  p_color = "white",    # Package name color
-  p_y = 0.45,            # Package name y position
-  url = "pablogguz.github.io/ineAtlas",
-  u_size = 5,
-  u_color = "white",
-  filename = "icon/logo.png"
-)
-
 # Create sticker for data repository (blue)
 sticker_data <- sticker(
   p_pkg,
@@ -65,8 +46,8 @@ sticker_data <- sticker(
   p_size = 12,          # Slightly smaller text due to longer name
   s_x = 1,              # Subplot x position
   s_y = 1.1,           # Subplot y position
-  s_width = 1.7,       # Subplot width
-  s_height = 1.7,      # Subplot height
+  s_width = 1.5,       # Subplot width
+  s_height = 1.5,      # Subplot height
   h_fill = "#3498db",  # Hexagon fill (blue)
   h_color = "#2980b9", # Hexagon border
   p_color = "white",   # Package name color
