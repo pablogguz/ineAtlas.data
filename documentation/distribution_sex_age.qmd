@@ -1,10 +1,10 @@
 ---
-title: "Income distribution by sex and nationality"
+title: "Income distribution by sex and age"
 ---
 
 ## Overview
 
-This dataset provides income distribution indicators disaggregated by sex and nationality status.
+This dataset provides income distribution indicators disaggregated by sex and age groups.
 
 ## Files
 
