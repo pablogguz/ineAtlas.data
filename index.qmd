@@ -2,7 +2,7 @@
 title: "ineAtlas.data"
 ---
 
-<img src="icon/logo_data.png" style="float: right; height: 278px; margin-left: 20px;">
+<img src="icon/logo_data.png" style="float: right; height: 159px; margin-left: 20px;">
 
 <!-- ::: {.callout-warning}
 ## Website under construction
