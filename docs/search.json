@@ -67,7 +67,7 @@
     "href": "documentation/income.html#files",
     "title": "Income Indicators",
     "section": "Files",
-    "text": "Files\n\nincome_municipality.csv: Municipality-level data\nincome_district.csv: District-level data\nincome_section.csv: Census tract-level data"
+    "text": "Files\n\nincome_municipality.csv: Municipality-level data\nincome_district.csv: District-level data\nincome_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/income.html#variables",
@@ -221,7 +221,7 @@
     "href": "documentation/income_sources.html#files",
     "title": "Income Sources",
     "section": "Files",
-    "text": "Files\n\nincome_sources_municipality.csv: Municipality-level data\nincome_sources_district.csv: District-level data\nincome_sources_section.csv: Census tract-level data"
+    "text": "Files\n\nincome_sources_municipality.csv: Municipality-level data\nincome_sources_district.csv: District-level data\nincome_sources_tract.csv: Census tract-level data"
   },
   {
     "objectID": "documentation/income_sources.html#variables",
