@@ -84,6 +84,8 @@ The data in this repository is automatically updated when new releases of the At
 
 You can find the metadata and full methodology in the [Spanish Statistical Office (INE) website](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=metodologiaandidp=1254735976608).
 
+Data for the census tract geometries are sourced from the [INE's Digital Cartography Files](https://www.ine.es/ss/Satellite?c=Page&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout&cid=1259952026632&L=1).
+
 ## About the author
 
 Hi! I'm [Pablo](https://pablogguz.github.io/). I do applied microeconomic and policy research at a [multilateral development bank](https://www.ebrd.com/sites/Satellite?c=Contentandcid=1395317980748andd=andpagename=EBRD%2FContent%2FContentLayout). In my free time, I enjoy working on data projects and contributing to open-source software.
