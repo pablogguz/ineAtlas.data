@@ -25,8 +25,8 @@ website:
             file: documentation/distribution_sex.qmd
           - text: "Distribution by sex and age"
             file: documentation/distribution_sex_age.qmd
-          - text: "Distribution by sex, age and nationality"
-            file: documentation/distribution_sex_age_nationality.qmd
+          - text: "Distribution by sex and nationality"
+            file: documentation/distribution_sex_nationality.qmd
           - text: "Inequality indicators"
             file: documentation/gini_p80p20.qmd
     right:

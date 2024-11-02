@@ -22,7 +22,7 @@ This dataset provides income distribution indicators disaggregated by sex and na
 | tract_code* | Código de sección censal | Census tract identifier code | character |
 | year | Periodo | Reference year | numeric |
 | sex | Sexo | Sex category | character |
-| nationality | Nacionalidad | Nationality status | character |
+| age_group | Tramos de edad | Age groups | character |
 | equivinc_below_5000 | Población con ingresos por unidad de consumo por debajo de 5.000 Euros | Percent of individuals with an equivalised income below €5,000 | numeric |
 | equivinc_below_7500 | Población con ingresos por unidad de consumo por debajo de 7.500 Euros | Percent of individuals with an equivalised income below €7,500 | numeric |
 | equivinc_below_10000 | Población con ingresos por unidad de consumo por debajo de 10.000 Euros | Percent of individuals with an equivalised income below €10,000 | numeric |

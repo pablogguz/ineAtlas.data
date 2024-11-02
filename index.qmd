@@ -36,7 +36,7 @@ The repository contains the following datasets:
 datasets <- data.frame(
   Dataset = c("Income", "Income sources", "Demographics", 
               "Distribution by sex", "Distribution by sex and age",
-              "Distribution by sex, age and nationality", "Inequality indicators"),
+              "Distribution by sex and nationality", "Inequality indicators"),
   Description = c(
     "Income indicators including net/gross income per capita and household income",
     "Income distribution by source (wages, pensions, benefits, etc.)",
