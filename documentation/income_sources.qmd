@@ -1,0 +1,30 @@
+---
+title: "Income Sources"
+---
+
+## Overview
+
+This dataset provides information about the distribution of income by source (wages, pensions, benefits, etc.) at different geographic levels.
+
+## Files
+
+- `income_sources_municipality.csv`: Municipality-level data
+- `income_sources_district.csv`: District-level data
+- `income_sources_section.csv`: Census tract-level data
+
+## Variables
+
+| Variable | Spanish Original | Description | Type |
+|----------|-----------------|-------------|------|
+| mun_code | Código de Municipio | Municipality identifier code | character |
+| mun_name | Nombre de Municipio | Municipality name | character |
+| district_code* | Código de Distrito | District identifier code | character |
+| section_code* | Código de Sección | Census tract identifier code | character |
+| year | Periodo | Reference year | numeric |
+| wage | Fuente de ingreso: salario | Income from wages (%) | numeric |
+| pension | Fuente de ingreso: pensiones | Income from pensions (%) | numeric |
+| unemp_benefit | Fuente de ingreso: prestaciones por desempleo | Income from unemployment benefits (%) | numeric |
+| other_benefits | Fuente de ingreso: otras prestaciones | Income from other benefits (%) | numeric |
+| other_income | Fuente de ingreso: otros ingresos | Other income sources (%) | numeric |
+
+\* Only available in respective geographic level files

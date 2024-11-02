@@ -1,0 +1,80 @@
+---
+title: "ineAtlas.data"
+---
+
+::: {.callout-warning}
+## Website under construction
+
+This website and its accompanying R package are currently under development. Check back soon for updates!
+:::
+
+# Data repository for the `ineAtlas` R package
+
+This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office (INE) _Atlas de Distribución de Renta de los Hogares_, providing detailed socioeconomic indicators at multiple geographic levels in Spain.
+
+## Data source
+
+The data comes from INE's _Atlas de Distribución de Renta de los Hogares_, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across Spanish territories.
+
+## Geographic levels
+
+Data is available at three geographic levels:
+
+- Municipality (Municipio)
+- District (Distrito)
+- Census tract (Sección censal)
+
+## Available datasets
+
+The repository contains the following datasets:
+
+```{r}
+#| echo: false
+#| output: asis
+datasets <- data.frame(
+  Dataset = c("Income", "Income Sources", "Demographics", 
+              "Distribution by Sex", "Distribution by Sex & Age",
+              "Distribution by Sex, Age & Nationality", "Inequality Indicators"),
+  Description = c(
+    "Income indicators including net/gross income per capita and household",
+    "Income distribution by source (wages, pensions, benefits, etc.)",
+    "Population characteristics including age structure and household composition",
+    "Income distribution indicators disaggregated by sex",
+    "Income distribution indicators by sex and age categories",
+    "Income distribution indicators by sex and nationality status",
+    "Inequality metrics including Gini coefficient and P80/P20 ratio"
+  ),
+  File_Pattern = c(
+    "income_*.csv",
+    "income_sources_*.csv",
+    "demographics_*.csv",
+    "income_heterogeneity_sex_*.csv",
+    "income_heterogeneity_sex_age_*.csv",
+    "income_heterogeneity_sex_age_nationality_*.csv",
+    "gini_p80p20_*.csv"
+  )
+)
+
+knitr::kable(datasets)
+```
+
+## Using with ineAtlas package
+
+While this data can be used independently, it's designed to work seamlessly with the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package, which provides functions for easily accessing and analyzing the data:
+
+```r
+# install.packages("pak")
+pak::pak("pablogguz/ineAtlas")
+
+library(ineAtlas)
+```
+
+See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentation for complete usage instructions and examples.
+
+## Updates
+
+The data in this repository is automatically updated when new releases of the Atlas de Distribución de Renta de los Hogares are published by INE. Updates are processed using the pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
+
+## About the author
+
+Hi! I'm [Pablo](https://pablogguz.github.io/). I do applied microeconomic and policy research at a [multilateral development bank](https://www.ebrd.com/sites/Satellite?c=Content&cid=1395317980748&d=&pagename=EBRD%2FContent%2FContentLayout). In my free time, I enjoy working on data projects and contributing to open-source software.

@@ -1,0 +1,35 @@
+---
+title: "Income Distribution by Sex"
+---
+
+## Overview
+
+This dataset provides income distribution indicators disaggregated by sex, including various income thresholds and percentiles.
+
+## Files
+
+- `income_heterogeneity_sex_municipality.csv`: Municipality-level data
+- `income_heterogeneity_sex_district.csv`: District-level data
+- `income_heterogeneity_sex_section.csv`: Census tract-level data
+
+## Variables
+
+| Variable | Spanish Original | Description | Type |
+|----------|-----------------|-------------|------|
+| mun_code | Código de Municipio | Municipality identifier code | character |
+| mun_name | Nombre de Municipio | Municipality name | character |
+| district_code* | Código de Distrito | District identifier code | character |
+| section_code* | Código de Sección | Census tract identifier code | character |
+| year | Periodo | Reference year | numeric |
+| sex | Sexo | Sex category | character |
+| equivinc_below_5000 | Población con ingresos por unidad de consumo por debajo de 5.000 Euros | Population with equivalised income below €5,000 (%) | numeric |
+| equivinc_below_7500 | Población con ingresos por unidad de consumo por debajo de 7.500 Euros | Population with equivalised income below €7,500 (%) | numeric |
+| equivinc_below_10000 | Población con ingresos por unidad de consumo por debajo de 10.000 Euros | Population with equivalised income below €10,000 (%) | numeric |
+| equivinc_below_40p_median | Población con ingresos por unidad de consumo por debajo 40% de la mediana | Population below 40% of median income (%) | numeric |
+| equivinc_below_50p_median | Población con ingresos por unidad de consumo por debajo 50% de la mediana | Population below 50% of median income (%) | numeric |
+| equivinc_below_60p_median | Población con ingresos por unidad de consumo por debajo 60% de la mediana | Population below 60% of median income (%) | numeric |
+| equivinc_above_140p_median | Población con ingresos por unidad de consumo por encima 140% de la mediana | Population above 140% of median income (%) | numeric |
+| equivinc_above_160p_median | Población con ingresos por unidad de consumo por encima 160% de la mediana | Population above 160% of median income (%) | numeric |
+| equivinc_above_200p_median | Población con ingresos por unidad de consumo por encima 200% de la mediana | Population above 200% of median income (%) | numeric |
+
+\* Only available in respective geographic level files

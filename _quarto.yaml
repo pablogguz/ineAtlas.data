@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!README.md"
+
+website:
+  title: "ineAtlas.data"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Documentation"
+        menu:
+          - text: "Income"
+            file: documentation/income.qmd
+          - text: "Income Sources"
+            file: documentation/income_sources.qmd
+          - text: "Demographics"
+            file: documentation/demographics.qmd
+          - text: "Distribution by Sex"
+            file: documentation/distribution_sex.qmd
+          - text: "Distribution by Sex & Age"
+            file: documentation/distribution_sex_age.qmd
+          - text: "Distribution by Sex, Age & Nationality"
+            file: documentation/distribution_sex_age_nationality.qmd
+          - text: "Inequality Indicators"
+            file: documentation/gini_p80p20.qmd
+    right:
+      - icon: github
+        href: https://github.com/pablogguz/ineAtlas.data
+  sidebar:
+    style: "docked"
+    search: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

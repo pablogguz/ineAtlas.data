@@ -1,0 +1,31 @@
+---
+title: "Income Indicators"
+---
+
+## Overview
+
+This dataset contains basic income indicators at different geographic levels from INE's Atlas de Distribución de Renta de los Hogares.
+
+## Files
+
+- `income_municipality.csv`: Municipality-level data
+- `income_district.csv`: District-level data
+- `income_section.csv`: Census tract-level data
+
+## Variables
+
+| Variable | Spanish Original | Description | Type |
+|----------|-----------------|-------------|------|
+| mun_code | Código de Municipio | Municipality identifier code | character |
+| mun_name | Nombre de Municipio | Municipality name | character |
+| district_code* | Código de Distrito | District identifier code | character |
+| section_code* | Código de Sección | Census tract identifier code | character |
+| year | Periodo | Reference year | numeric |
+| net_income_pc | Renta neta media por persona | Average net income per capita (€) | numeric |
+| net_income_hh | Renta neta media por hogar | Average net household income (€) | numeric |
+| net_income_equiv | Media de la renta por unidad de consumo | Mean equivalised income (€) | numeric |
+| median_income_equiv | Mediana de la renta por unidad de consumo | Median equivalised income (€) | numeric |
+| gross_income_pc | Renta bruta media por persona | Average gross income per capita (€) | numeric |
+| gross_income_hh | Renta bruta media por hogar | Average gross household income (€) | numeric |
+
+\* Only available in respective geographic level files
