@@ -4,11 +4,11 @@ title: "ineAtlas.data"
 
 <img src="icon/logo_data.png" style="float: right; height: 139px; margin-left: 20px;">
 
-::: {.callout-warning}
+<!-- ::: {.callout-warning}
 ## Website under construction
 
 This website and its accompanying R package are currently under development. Check back soon for updates!
-:::
+::: -->
 
 # Data repository for the `ineAtlas` R package
 
