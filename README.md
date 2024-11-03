@@ -55,6 +55,12 @@ This repository is automatically updated when new data is released by INE using 
 ### [0.1.0] - 2024-02-11
 - Initial release of ineAtlas.data
 
+## References
+
+**Spanish Statistical Office** (2024). *Household Income Distribution Atlas*. Retrieved from [https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm](https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm) [Accessed October 29, 2024]
+
+Latest data release: October 29, 2024
+
 ## Author
 
 **Pablo García Guzmán**  
