@@ -18,6 +18,8 @@ This dataset provides information about the distribution of income by source (wa
 |----------|-----------------|-------------|------|
 | mun_code | Código de municipio | Municipality identifier code | character |
 | mun_name | Nombre de municipio | Municipality name | character |
+| prov_code | - | Province identifier code | character |
+| prov_name | - | Province name | character |
 | district_code* | Código de distrito | District identifier code | character |
 | tract_code* | Código de sección censal | Census tract identifier code | character |
 | year | Periodo | Reference year | numeric |
