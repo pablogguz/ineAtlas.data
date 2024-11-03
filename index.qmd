@@ -12,11 +12,7 @@ This website and its accompanying R package are currently under development. Che
 
 ## Data repository for the `ineAtlas` R package
 
-This is the data repository accompanying the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office _(INE)_ [_Atlas de Distribución de Renta de los Hogares_](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=ultiDatosandidp=1254735976608) (Household Income Distribution Atlas), providing detailed socioeconomic indicators at multiple geographic levels in Spain. The repository also includes boundary files for census tracts.
-
-## Data source
-
-The data comes from Spanish Statistical Office's Household Income Distribution Atlas, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country.
+This is the companion data repository for the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) R package. It contains processed and standardized data from the Spanish Statistical Office (INE) [Household Income Distribution Atlas](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_Candcid=1254736177088andmenu=ultiDatosandidp=1254735976608) _(Atlas de Distribución de Renta de los Hogares)_, which combines administrative tax data with population statistics to provide detailed information about the income distribution and related socioeconomic indicators at multiple geographic levels in Spain. The repository also includes boundary files for census tracts.
 
 ## Geographic levels
 
@@ -78,7 +74,7 @@ See the [`ineAtlas`](https://github.com/pablogguz/ineAtlas) package documentatio
 
 ## Updates
 
-The data in this repository is automatically updated when new releases of the Atlas de Distribución de Renta de los Hogares are published by INE. Updates are processed using the pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
+The data in this repository is updated when new releases of the Household Income Distribution Atlas are published by INE. Updates are processed using the pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
 
 ## Metadata 
 

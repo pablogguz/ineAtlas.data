@@ -4,14 +4,7 @@
     "href": "index.html#data-repository-for-the-ineatlas-r-package",
     "title": "ineAtlas.data",
     "section": "Data repository for the ineAtlas R package",
-    "text": "Data repository for the ineAtlas R package\nThis is the data repository accompanying the ineAtlas R package. It contains processed and standardized data from the Spanish Statistical Office (INE) Atlas de Distribución de Renta de los Hogares (Household Income Distribution Atlas), providing detailed socioeconomic indicators at multiple geographic levels in Spain. The repository also includes boundary files for census tracts."
-  },
-  {
-    "objectID": "index.html#data-source",
-    "href": "index.html#data-source",
-    "title": "ineAtlas.data",
-    "section": "Data source",
-    "text": "Data source\nThe data comes from Spanish Statistical Office’s Household Income Distribution Atlas, which combines administrative tax data with population statistics to provide detailed information about income distribution and related socioeconomic indicators across the country."
+    "text": "Data repository for the ineAtlas R package\nThis is the companion data repository for the ineAtlas R package. It contains processed and standardized data from the Spanish Statistical Office (INE) Household Income Distribution Atlas (Atlas de Distribución de Renta de los Hogares), which combines administrative tax data with population statistics to provide detailed information about the income distribution and related socioeconomic indicators at multiple geographic levels in Spain. The repository also includes boundary files for census tracts."
   },
   {
     "objectID": "index.html#geographic-levels",
@@ -39,7 +32,7 @@
     "href": "index.html#updates",
     "title": "ineAtlas.data",
     "section": "Updates",
-    "text": "Updates\nThe data in this repository is automatically updated when new releases of the Atlas de Distribución de Renta de los Hogares are published by INE. Updates are processed using the pipeline in the main ineAtlas repository."
+    "text": "Updates\nThe data in this repository is updated when new releases of the Household Income Distribution Atlas are published by INE. Updates are processed using the pipeline in the main ineAtlas repository."
   },
   {
     "objectID": "index.html#metadata",
