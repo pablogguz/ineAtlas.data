@@ -30,6 +30,8 @@ website:
             file: documentation/distribution_sex_nationality.qmd
           - text: "Inequality indicators"
             file: documentation/gini_p80p20.qmd
+          - text: "Census 2021"
+            file: documentation/census_2021.qmd
           - text: "Census tract geometries"
             file: documentation/geometries.qmd
     right:

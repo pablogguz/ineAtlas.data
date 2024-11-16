@@ -13,33 +13,46 @@ The repository is organized into the following directories:
 ```
 ineAtlas.data/
 ├── income/
-│   ├── income_municipality.csv
-│   ├── income_district.csv
-│   └── income_tract.csv
+│   ├── income_municipality.csv.zip
+│   ├── income_district.csv.zip
+│   └── income_tract.csv.zip
 ├── income_sources/
-│   ├── income_sources_municipality.csv
-│   ├── income_sources_district.csv
-│   └── income_sources_tract.csv
+│   ├── income_sources_municipality.csv.zip
+│   ├── income_sources_district.csv.zip
+│   └── income_sources_tract.csv.zip
 ├── demographics/
-│   ├── demographics_municipality.csv
-│   ├── demographics_district.csv
-│   └── demographics_tract.csv
+│   ├── demographics_municipality.csv.zip
+│   ├── demographics_district.csv.zip
+│   └── demographics_tract.csv.zip
 ├── distribution_sex/
-│   ├── distribution_sex_municipality.csv
-│   ├── distribution_sex_district.csv
-│   └── distribution_sex_tract.csv
+│   ├── distribution_sex_municipality.csv.zip
+│   ├── distribution_sex_district.csv.zip
+│   └── distribution_sex_tract.csv.zip
 ├── distribution_sex_age/
-│   ├── distribution_sex_age_municipality.csv
-│   ├── distribution_sex_age_district.csv
-│   └── distribution_sex_age_tract.csv
+│   ├── distribution_sex_age_municipality.csv.zip
+│   ├── distribution_sex_age_district.csv.zip
+│   └── distribution_sex_age_tract.csv.zip
 ├── distribution_sex_nationality/
-│   ├── distribution_sex_nationality_municipality.csv
-│   ├── distribution_sex_nationality_district.csv
-│   └── distribution_sex_nationality_tract.csv
-└── gini_p80p20/
-    ├── gini_p80p20_municipality.csv
-    ├── gini_p80p20_district.csv
-    └── gini_p80p20_tract.csv
+│   ├── distribution_sex_nationality_municipality.csv.zip
+│   ├── distribution_sex_nationality_district.csv.zip
+│   └── distribution_sex_nationality_tract.csv.zip
+├── gini_p80p20/
+│   ├── gini_p80p20_municipality.csv.zip
+│   ├── gini_p80p20_district.csv.zip
+│   └── gini_p80p20_tract.csv.zip
+├── census_2021/
+│   ├── census_2021_municipality.csv.zip
+│   ├── census_2021_district.csv.zip
+│   └── census_2021_tract.csv.zip
+└── geometries/
+    ├── census_tracts_2015.gpkg.zip
+    ├── census_tracts_2016.gpkg.zip
+    ├── census_tracts_2017.gpkg.zip
+    ├── census_tracts_2018.gpkg.zip
+    ├── census_tracts_2019.gpkg.zip
+    ├── census_tracts_2020.gpkg.zip
+    ├── census_tracts_2021.gpkg.zip
+    └── census_tracts_2022.gpkg.zip
 ```
 
 ## Documentation
@@ -52,14 +65,17 @@ This repository is automatically updated when new data is released by INE using 
 
 ## Changelog 
 
+### [0.2.0] - 2024-02-11
+- Added data from the 2021 Census
+
 ### [0.1.0] - 2024-02-11
 - Initial release of ineAtlas.data
 
 ## References
 
-**Spanish Statistical Office** (2024). *Household Income Distribution Atlas*. Retrieved from [https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm](https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm) [Accessed October 29, 2024]
+**Spanish Statistical Office** (2024). *Household Income Distribution Atlas*. Retrieved from [https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm](https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm) [Accessed October 29, 2024]. Latest data release: October 29, 2024
 
-Latest data release: October 29, 2024
+**Spanish Statistical Office** (2023). *Population and Housing Census 2021*. Retrieved from [https://www.ine.es/censos2021/](https://www.ine.es/censos2021/) [Accessed November 16, 2024]. Latest data release: June 30, 2023
 
 ## Author
 

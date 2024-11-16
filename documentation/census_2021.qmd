@@ -1,0 +1,64 @@
+---
+title: "Census 2021"
+---
+
+## Overview
+
+This dataset contains detailed demographic, socioeconomic, and housing indicators from the 2021 Population and Housing Census conducted by the Spanish Statistical Office (INE).
+
+## Files
+
+- `census_2021_municipality.csv`: Municipality-level data
+- `census_2021_district.csv`: District-level data
+- `census_2021_tract.csv`: Census tract-level data
+
+## Variables
+
+| Variable | Spanish original | Description | Type |
+|----------|-----------------|-------------|------|
+| municipality_code | Código de municipio | Municipality identifier code | character |
+| province_code | Código de provincia | Province identifier code | character |
+| district_code* | Código de distrito | District identifier code | character |
+| tract_code* | Código de sección censal | Census tract identifier code | character |
+| total_pop | Total Personas | Total population | numeric |
+| pct_female | Porcentaje de mujeres | Percentage of women | numeric |
+| pct_male | Porcentaje de hombres | Percentage of men | numeric |
+| mean_age | Edad media | Mean age of population | numeric |
+| pct_under16 | Porcentaje de personas menores de 16 años | Percentage of population under 16 years | numeric |
+| pct_16to64 | Porcentaje de personas entre 16 (incluido) y 64 (incluido) años | Percentage of population aged 16-64 years | numeric |
+| pct_over64 | Porcentaje de personas con más de 64 años | Percentage of population over 64 years | numeric |
+| pct_foreign | Porcentaje extranjeros | Percentage of foreign nationals | numeric |
+| pct_foreign_born | Porcentaje personas nacidas en el extranjero | Percentage of foreign-born population | numeric |
+| pct_higher_ed_enrolled | Porcentaje personas cursando estudios superiores | Percentage of population enrolled in higher education | numeric |
+| pct_university_enrolled | Porcentaje de personas cursando estudios universitarios | Percentage of population enrolled in university studies | numeric |
+| pct_higher_ed_completed | Porcentaje personas con estudios superiores | Percentage of population with completed higher education | numeric |
+| unemployment_rate | Porcentaje de población parada sobre población activa | Unemployment rate (unemployed/active population) | numeric |
+| employment_rate | Porcentaje de población ocupada sobre población de 16 y más | Employment rate (employed/population 16+) | numeric |
+| activity_rate | Porcentaje de población activa sobre población de 16 y más | Activity rate (active population/population 16+) | numeric |
+| pct_disability_pension | Porcentaje de población pensionista por invalidez | Percentage receiving disability pension | numeric |
+| pct_retirement_pension | Porcentaje de población pensionista por jubilación | Percentage receiving retirement pension | numeric |
+| pct_other_inactive | Porcentaje de población en otra situación de inactividad | Percentage in other inactive situations | numeric |
+| pct_student | Porcentaje de población estudiante | Percentage of students | numeric |
+| pct_single | Porcentaje de personas con estado civil soltero | Percentage single | numeric |
+| pct_married | Porcentaje de personas con estado civil casado | Percentage married | numeric |
+| pct_widowed | Porcentaje de personas personas con estado civil viudo | Percentage widowed | numeric |
+| pct_marital_unknown | Porcentaje de personas para las que no consta su estado civil | Percentage with unknown marital status | numeric |
+| pct_divorced_separated | Porcentaje de personas con estado civil separado legalmente o divorciado | Percentage divorced or legally separated | numeric |
+| total_dwellings | Total Viviendas | Total number of dwellings | numeric |
+| primary_dwellings | Viviendas Principales | Number of primary residences | numeric |
+| secondary_dwellings | Viviendas No principales | Number of secondary residences | numeric |
+| owned_dwellings | Viviendas en propiedad | Number of owner-occupied dwellings | numeric |
+| rented_dwellings | Viviendas en alquiler | Number of rented dwellings | numeric |
+| other_tenure_dwellings | Viviendas en otro tipo de régimen de tenencia | Number of dwellings in other tenure types | numeric |
+| total_households | Total Hogares | Total number of households | numeric |
+| hh_size1 | Hogares de 1 persona | Number of 1-person households | numeric |
+| hh_size2 | Hogares de 2 personas | Number of 2-person households | numeric |
+| hh_size3 | Hogares de 3 personas | Number of 3-person households | numeric |
+| hh_size4 | Hogares de 4 personas | Number of 4-person households | numeric |
+| hh_size5plus | Hogares de 5 o más personas | Number of households with 5+ persons | numeric |
+
+\* Only available in respective geographic level files
+
+## Notes
+
+- Population counts and ratios for district and municipality levels are calculated as population-weighted averages using census tract-level data
