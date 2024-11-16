@@ -16,8 +16,9 @@ This dataset contains detailed demographic, socioeconomic, and housing indicator
 
 | Variable | Spanish original | Description | Type |
 |----------|-----------------|-------------|------|
-| municipality_code | Código de municipio | Municipality identifier code | character |
-| province_code | Código de provincia | Province identifier code | character |
+| mun_code | Código de municipio | Municipality identifier code | character |
+| prov_code | Código de provincia | Province identifier code | character |
+| prov_name | Nombre de provincia | Province name | character |
 | district_code* | Código de distrito | District identifier code | character |
 | tract_code* | Código de sección censal | Census tract identifier code | character |
 | total_pop | Total Personas | Total population | numeric |
