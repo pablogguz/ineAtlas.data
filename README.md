@@ -65,6 +65,9 @@ This repository is automatically updated when new data is released by INE using 
 
 ## Changelog 
 
+### [0.3.0] - 2025-04-24
+- Re-built data extraction pipeline and corrected minor bugs that caused some data to be missing for some census tracts in the previous version
+
 ### [0.2.0] - 2024-02-11
 - Added data from the 2021 Census
 
@@ -72,6 +75,8 @@ This repository is automatically updated when new data is released by INE using 
 - Initial release of ineAtlas.data
 
 ## References
+
+This repository contains publicly available data from the Spanish Statistical Office (Instituto Nacional de Estadística, INE), available under a Creative Commons Attribution 4.0 International (CC BY 4.0). More information: https://www.ine.es/dyngs/AYU/index.htm?cid=125.
 
 **Spanish Statistical Office** (2024). *Household Income Distribution Atlas*. Retrieved from [https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm](https://www.ine.es/en/experimental/atlas/experimental_atlas_en.htm) [Accessed October 29, 2024]. Latest data release: October 29, 2024
 
